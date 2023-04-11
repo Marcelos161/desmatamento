@@ -1,0 +1,123 @@
+/* resets gerais */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+button {
+    border-width: 0;
+    border-radius: 10px;
+    background-color: #0b472dd8;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+
+/* background do site */
+body {
+    background-image: url(./image/Amazonia.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/* header */
+ #top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #0b472dd8;
+    
+    margin-top: 30px;
+    padding: 15px;
+ }
+
+#topicos {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+    padding-inline: 2em;
+}
+
+ h1 {
+    font-family: 'Bebas neue', cursive;
+    letter-spacing: 4px;
+    color: rgba(255, 255, 255, 0.712);
+ }
+
+ /* primeira div */
+
+ #section1 {
+    display: flex;
+
+    margin-top: 2em;
+    margin-inline: 20em;
+
+    background-color: #0b472dd8;
+    border-radius: 10px;
+    padding-bottom: 20px;
+ }
+
+ #text1 {
+    text-align: center;  
+    margin: 10px; 
+ }
+
+ #imagem-jogo {
+    border-radius: 50%;
+    width: 45px;
+    cursor: pointer;
+ }
+
+ #download {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ /* segunda div */
+
+ .title-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 32px;
+
+    background-color: rgb(96, 140, 100);
+    width: 100%;
+    height: 200px;
+ }
+
+ .titulo-section {
+    font-size: 100px
+ }
+
+ #stats {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+ }
+
+ .text-stats {
+    margin-top: 20px;
+    margin-left: 15px;
+ }
