@@ -121,3 +121,20 @@ body {
     margin-top: 20px;
     margin-left: 15px;
  }
+
+ .text-stats2 {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 25px;
+ }
+
+ /* footer */
+
+ footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    background-color: rgb(34, 34, 34);
+    padding: 30px;
+ }
