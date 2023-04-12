@@ -8,6 +8,7 @@
 a {
     text-decoration: none;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
@@ -62,6 +63,16 @@ body {
     font-family: 'Bebas neue', cursive;
     letter-spacing: 4px;
     color: rgba(255, 255, 255, 0.712);
+ }
+
+ .button-nav {
+   padding: 30px 15px;
+   transition: 300ms;
+ }
+
+ .button-nav:hover {
+   background-color: #0b472d;
+   border-radius: 20%;
  }
 
  /* primeira div */
