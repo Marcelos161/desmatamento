@@ -3,8 +3,8 @@ var btn = document.getElementById('about')
 
 function sobre() {
     if (about.style.marginLeft == '77%') {
-        btn.style.backgroundColor = '#0b472d'
-        btn.style.borderRadius = '20% 20% 0 0'
+        btn.style.backgroundColor = ''
+        btn.style.borderRadius = '20%'
 
         about.style.marginLeft = '100%';
         setTimeout (() => {
@@ -20,6 +20,4 @@ function sobre() {
 
     }
 
-    btn.style.backgroundColor = '#0b472d'
-    btn.style.borderRadius = '20% 20% 0 0'
 }
