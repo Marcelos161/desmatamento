@@ -9,6 +9,7 @@ a {
     text-decoration: none;
     color: white;
     font-family: 'Raleway', sans-serif;
+    cursor: pointer;
 }
 
 p {
@@ -41,6 +42,7 @@ body {
 
 /* header */
  #top-bar {
+   z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,11 +54,10 @@ body {
  }
 
 #topicos {
-    width: 200px;
     display: flex;
     justify-content: space-between;
     margin-right: 2em;
-    padding-inline: 2em;
+
 }
 
  h1 {
@@ -148,4 +149,41 @@ body {
     margin-top: 32px;
     background-color: rgb(34, 34, 34);
     padding: 30px;
+ }
+
+ /* Barra do sobre  */
+
+ #sobre {
+   z-index: 1;
+   display: none;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+   width: 420px;
+   height: 130vh;
+   background-color: #0b472d;
+   margin-left: 100%;
+   padding: 30px;
+   transition: ease-in-out 1s;
+   box-sizing: border-box;
+
+   border-radius: 0 0 5% 5%;
+
+ }
+
+ .foto-pessoal {
+   height: 70px;
+   border-radius: 10%;
+   border: #ffffff 1px solid;
+   margin-top: 20px; 
+ }
+
+ #topo-quemsomos {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+   align-items: center;
+   justify-content: center;
+   margin-top: -60px;
  }
