@@ -1,3 +1,14 @@
+/* aviso sobre telas de celular */
+#celular {
+   background-color: #ffffff;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100vmax;
+   
+}
+
+
 /* resets gerais */
 
 html {
